@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/midi-mixer-plugin/plugin.schema.json",
+  "id": "com.midi-mixer.homeassistant",
+  "name": "Home Assistant API Integration",
+  "type": "node",
+  "version": "1.0.2",
+  "author": "Brandon Hu",
+  "main": "lib/main.js",
+  "settings": {
+    "homeassistantIP": {
+      "label": "Homeassistant IP address",
+      "type": "text",
+      "required": true
+    },
+
+    "auth": {
+      "label": "Authorization Token",
+      "type": "text",
+      "required": true
+    }
+  }
+}
