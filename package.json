@@ -1,7 +1,7 @@
 {
   "name": "com.midi-mixer.homeassistant",
   "version": "1.0.2",
-  "description": "A template plugin for MIDI Mixer that demonstrates how to interact with MIDI Mixer's API.",
+  "description": "A plugin that lets you control lights and switches using Homeassistant's REST api.",
   "main": "lib/main.js",
   "directories": {
     "lib": "lib"
@@ -26,7 +26,8 @@
     "midi-mixer-plugin": "^1.0.2"
   },
   "bundledDependencies": [
-    "midi-mixer-plugin"
+    "midi-mixer-plugin",
+    "homeassistant"
   ],
   "devDependencies": {
     "@types/node": "^17.0.21",
