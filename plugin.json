@@ -14,8 +14,13 @@
     },
     "auth": {
       "label": "Authorization Token",
-      "type": "text",
+      "type": "password",
       "required": true
+    },
+    "refresh": {
+      "label": "Light and switch state refresh interval (in seconds)",
+      "type": "text",
+      "required": false
     }
   }
 }
